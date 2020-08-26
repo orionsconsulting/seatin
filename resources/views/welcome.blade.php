@@ -1,22 +1,16 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        @include('includes.head')
-    </head>
-    <body>
-        <div class="container">
-            <header class="row">
-                    @include('includes.header')
-            </header>
-            <div id="main" class="row">
+@extends('layouts.default')
+@section('content')
+   <p>
+       Subscribe and check out the channel for more top quality Marvel Contest of Champions content and guides!
 
-                @yield('content')
+       If Superchat doesn't work, alternative PayPal donation link for support! - https://www.paypal.com/cgi-bin/webscr...
 
-            </div>
+       Join the channel discord: https://discord.gg/GVV3wMp
 
-            <footer class="row">
-                @include('includes.footer')
-            </footer>
-        </div>
-    </body>
-</html>
+       T4B Streak Guide Link: http://i.imgur.com/gkp9fLV.png-
+
+       Follow me on Instagram: https://www.instagram.com/seatinmol (@Seatinmol)
+       Follow me on Twitter: https://www.twitter.com/seatinmol (@Seatinmol)
+       Snapchat: Cjwilliz
+    </p>
+@stop
